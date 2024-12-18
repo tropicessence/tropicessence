@@ -4,9 +4,13 @@ import React from "react";
 export default function AboutUs() {
   const router = useRouter();
   return (
-    <div className="relative bg-[#EBEAD5] my-3 lg:mb-32 mb-24 max-h-full">
-      <div className="absolute sm:block hidden">
-        <img src="/image/bannerbackground/aboutbackground.png" alt="" />
+    <div className="relative bg-[#EBEAD5] my-3 mb-24 max-h-full">
+      <div className="absolute sm:block hidden h-full">
+        <img
+          src="/image/bannerbackground/aboutbackground.png"
+          alt=""
+          className="h-full"
+        />
       </div>
       <div className="relative z-10 max-w-screen-lg mx-auto">
         <div className="sm:w-2/1 h-auto  mx-auto">

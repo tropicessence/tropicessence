@@ -38,8 +38,6 @@ export default function page() {
     }),
   );
 
-  console.log("DesssicatePowder", DesssicatePowder);
-
   const coconutOilImages = coconutData[0]?.coconut[0]?.variants?.map(
     (variant) => {
       if (typeof variant.image === "string") {
@@ -113,20 +111,22 @@ export default function page() {
             Experience Purity in Every Drop
           </span>
         </div>
-        <div className="font-poppins ">
+        <div className="font-poppins mb-16">
           <div
-            className="grid grid-cols-1 sm:grid-cols-2  gap-6 drop-shadow-2xl my-10 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg 
+            className="grid grid-cols-1 sm:grid-cols-2  gap-6 sm:gap-10 drop-shadow-2xl my-10 
+            w-[90%]
+            sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg 
             mx-auto"
           >
             {data?.map((variant) => (
               <div
-                className="mx-4 xs:mx-10 sm:mx-0"
+                className="relative"
                 key={variant.id}
                 onClick={() => router.push(`/productDetail/${variant.id}`)}
               >
                 <div
                   className="border border-[#D1B87A] rounded-lg drop-shadow-sm shadow-xl 
-                  pb-4 border-opacity-25"
+                 border-opacity-25 pb-4 sm:pb-6"
                 >
                   <img
                     src={variant.mainImage}
@@ -135,24 +135,32 @@ export default function page() {
                   />
                   <div className="bg-[#1B2F1F] h-[1px] "></div>
 
-                  <p className="mx-4 font-medium text-[#1B2F1F] mt-2">
+                  {/* <div */}
+                  {/*   className="absolute bottom-6 md:bottom-10  */}
+                  {/*   flex justify-between items-center p-4 py-3 bg-[#1B2F1F] text-[#D1B87A] w-[90%]" */}
+                  {/* > */}
+                  {/*   <div>{variant.name}</div> */}
+                  {/*   <div className="text-2xl">{">"}</div> */}
+                  {/* </div> */}
+
+                  <p className="mx-4 font-medium text-base text-[#1B2F1F] mt-2">
                     {variant.name}
                   </p>
-                  <div className="flex">
-                    <img
-                      className="w-4 h-4 mt-1 ml-3"
-                      src="/image/pdp/currencylogo.png"
-                      alt=""
-                    />
-                    <div className="flex">
-                      <div className="line-through ml-[8%] mr-[8%]">
-                        {variant.mrp}
-                      </div>
-                      {variant.sellingPrice}
-                    </div>
-                  </div>
-                  <div className="mx-2 sm:block hidden p-2">
-                    <div className="grid grid-cols-2 gap-1 mt-2 mx-1 ">
+                  {/* <div className="flex"> */}
+                  {/*   <img */}
+                  {/*     className="w-4 h-4 mt-1 ml-3" */}
+                  {/*     src="/image/pdp/currencylogo.png" */}
+                  {/*     alt="" */}
+                  {/*   /> */}
+                  {/*   <div className="flex"> */}
+                  {/*     <div className="line-through ml-[8%] mr-[8%]"> */}
+                  {/*       {variant.mrp} */}
+                  {/*     </div> */}
+                  {/*     {variant.sellingPrice} */}
+                  {/*   </div> */}
+                  {/* </div> */}
+                  <div className="mx-2 sm:block p-2">
+                    <div className="flex flex-wrap gap-2 mt-2 mx-1 ">
                       {variant.benefits.map((benefit, idx) => (
                         <div
                           key={idx}
@@ -163,40 +171,20 @@ export default function page() {
                             alt=""
                             className="w-2 h-2 mr-2"
                           />
-                          <span className="sm:text-xs text-[9px] ">
-                            {benefit}
-                          </span>
+                          <span className="text-sm">{benefit}</span>
                         </div>
                       ))}
                     </div>
                   </div>
 
-                  <div className="mx-2 sm:hidden block p-2">
-                    <div className="flex gap-2 mt-2 mx-1">
-                      {variant.benefits.slice(0, 2).map((benefit, idx) => (
-                        <div
-                          key={idx}
-                          className="flex items-center text-start font-light text-xs text-[#1B2F1F]"
-                        >
-                          <img
-                            src={variant.icon}
-                            alt=""
-                            className="w-2 h-2 mr-2"
-                          />
-                          <span className="text-[9px] sm:text-xs">
-                            {benefit}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
+                  <div className="mx-4 mt-4">
+                    <button
+                      className="w-full border-[#D1B87A] text-[#D1B87A] border-opacity-55 
+                      bg-[#1B2F1F]   px-4 p-2 rounded-md items-center"
+                    >
+                      View Product
+                    </button>
                   </div>
-
-                  <button
-                    className="w-[82%] border-[#D1B87A] text-[#D1B87A] border-opacity-55 
-                      bg-[#1B2F1F]   mx-[10%] p-2 rounded-md items-center"
-                  >
-                    View Product
-                  </button>
                 </div>
               </div>
             ))}

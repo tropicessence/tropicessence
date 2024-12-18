@@ -17,7 +17,7 @@ export default function Header() {
   };
 
   return (
-    <div className=" px-5 pt-2 bg-[#1B2F1F] mx-auto">
+    <div className=" px-5 pt-2 bg-[#1B2F1F] mx-auto py-2">
       <div className="flex md:justify-around justify-between items-center">
         <div className="pt-2 md:hidden block">
           <IconButton
