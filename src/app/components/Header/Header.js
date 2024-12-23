@@ -28,7 +28,7 @@ export default function Header() {
 
         {mobileMenu && <MobileMenu setMobileMenu={setMobileMenu} />}
         <img
-          className="w-10 h-10"
+          className="w-10 h-10 cursor-pointer"
           src="/image/brandicon/barndlogo.png"
           alt=""
           onClick={() => router.push("/")}

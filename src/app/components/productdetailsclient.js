@@ -93,14 +93,14 @@ export default function ProductDetail({ id }) {
         <div className="sm:block hidden">
           <img
             className="h-full w-full"
-            src="/image/banner/productsl.jpg"
+            src="/image/banner/products.jpg"
             alt=""
           />
         </div>
         <div className="sm:hidden block">
           <img
             className="h-full w-full"
-            src="/image/banner/productsm.jpg"
+            src="/image/banner/products-mobile.jpg"
             alt=""
           />
         </div>

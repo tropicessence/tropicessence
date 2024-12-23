@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import { useEffect, useState } from "react";
 import Banner from "./components/Banner/banner";
 import Header from "./components/Header/Header";
@@ -12,27 +11,23 @@ import VideoBanner from "./components/Banner/VideoBanner";
 import Infographic from "./components/Cards/Infographic";
 import Blogs from "./components/Cards/Blogs";
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 import Footer from "./components/Footer/Footer";
 import Instagram from "./components/Cards/instagram";
 import Youtube from "./components/youtube/Tube";
 import HomePageIcon from "./components/Cards/homepageIcon";
 import Testimonials from "./components/testimonials/Testimonials";
 
-
-
 export default function Home() {
   const [screenWidth, setScreenWidth] = useState(null);
-  const [mobileMenu, setMobileMenu] = useState(false)
-
+  const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
     <>
-
-      <div className="pt-4 bg-[#1B2F1F] ">
-
-
-      </div>
+      {/* <div className="pt-4 bg-[#1B2F1F] "> */}
+      {/**/}
+      {/**/}
+      {/* </div> */}
       <Banner />
       <Explore />
       <FourCards />
@@ -45,9 +40,6 @@ export default function Home() {
       {/* <VideoBanner />
       <Infographic />
       <Blogs /> */}
-
-
-
 
       {/* <div className="font-sans">
         <header className="bg-white shadow-md">

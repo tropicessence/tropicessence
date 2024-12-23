@@ -1,6 +1,6 @@
-import one from "../public/image/plp/oil11.jpg";
-import two from "../public/image/plp/oil5001.jpg";
-import three from "../public/image/plp/oil2501.jpg";
+import one from "../public/image/plp/1ltr.jpg";
+import two from "../public/image/plp/1-2ltr.jpg";
+import three from "../public/image/plp/1-4ltr.jpg";
 import four from "../public/image/plp/dpowder1.jpg";
 
 export const coconutData = [
@@ -17,7 +17,7 @@ export const coconutData = [
           {
             id: "1",
             size: "1ltr -1000ml",
-            mainImage: "/image/plp/oil11.jpg",
+            mainImage: "/image/plp/1ltr.jpg",
             name: "Narikela 1 Ltr Coconut Oil",
             icon: "/image/plp/Ellipse.png",
             secondName: "Narikela1ltr Oil",
@@ -46,7 +46,7 @@ export const coconutData = [
           {
             id: "500",
             size: "1/2ltr-500ml",
-            mainImage: "/image/plp/oil5001.jpg",
+            mainImage: "/image/plp/1-2ltr.jpg",
             name: "Narikela 1/2 Ltr Coconut Oil",
             icon: "/image/plp/Ellipse.png",
             mrp: 130,
@@ -74,7 +74,7 @@ export const coconutData = [
           {
             id: "250",
             size: "1/4ltr-250 ml ",
-            mainImage: "/image/plp/oil2501.jpg",
+            mainImage: "/image/plp/1-4ltr.jpg",
             name: "Narikela 1/4 Ltr Coconut Oil",
             icon: "/image/plp/Ellipse.png",
             secondName: "Narikela1/4ltr Oil",
@@ -231,10 +231,10 @@ export const HOMEBANNER = [
   {
     images: [
       {
-        image: "/image/banner/banner1l.jpg",
+        image: "/image/banner/banner-2.jpg",
       },
       {
-        image: "/image/banner/banner2l.jpg",
+        image: "/image/banner/banner-1.jpg",
       },
       {
         image: "/image/banner/banner3l.jpg",
@@ -247,10 +247,10 @@ export const HOMEBANNERM = [
   {
     images: [
       {
-        image: "/image/banner/banner1m.jpg",
+        image: "/image/banner/banner-2-mobile.jpg",
       },
       {
-        image: "/image/banner/banner2m.jpg",
+        image: "/image/banner/banner-1-mobile.jpg",
       },
       {
         image: "/image/banner/banner3m.jpg",
