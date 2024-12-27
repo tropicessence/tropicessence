@@ -212,15 +212,15 @@ export const instagram = [
   {
     images: [
       {
-        image: "/image/instagram/instgram1.png",
+        image: "/image/instagram/instgram1.jpg",
         link: "https://www.instagram.com/narikela.in/p/C8cdBRNSQk8/",
       },
       {
-        image: "/image/instagram/instgram2.png",
+        image: "/image/instagram/instgram2.jpg",
         link: "https://www.instagram.com/narikela.in/p/C8cdGzIyzBC/",
       },
       {
-        image: "/image/instagram/instgram3.png",
+        image: "/image/instagram/instgram3.jpg",
         link: "https://www.instagram.com/narikela.in/p/C8cdPRYSexc/",
       },
     ],
@@ -262,21 +262,38 @@ export const HOMEBANNERM = [
 export const pdp = [
   {
     main: "/image/pdp/pdpmain1.png",
-    side1: "/image/pdp/pdpside1.png",
-    side2: "/image/pdp/pdpside2.png",
-    side3: "/image/pdp/pdpside3.png",
+    1: {
+      side1: "/image/pdp/keyF1.jpg",
+      side2: "/image/pdp/keyF2.jpg",
+      side3: "/image/pdp/keyF3.jpg",
+    },
+    500: {
+      side1: "/image/pdp/1-2ltrF1.jpg",
+      side2: "/image/pdp/1-2ltrF2.jpg",
+      side3: "/image/pdp/1-2ltrF3.jpg",
+    },
+    250: {
+      side1: "/image/pdp/1-4ltrF1.jpg",
+      side2: "/image/pdp/1-4ltrF2.jpg",
+      side3: "/image/pdp/1-4ltrF3.jpg",
+    },
+    22: {
+      side1: "/image/pdp/dessicated-F1.jpg",
+      side2: "/image/pdp/1-4ltrF2.jpg",
+      side3: "/image/pdp/1-4ltrF3.jpg",
+    },
   },
 ];
 
 export const keyFeature = [
   {
-    key: "/image/pdp/keyF1.png",
+    key: "/image/pdp/keyF1.jpg",
   },
   {
-    key: "/image/pdp/keyF2.png",
+    key: "/image/pdp/keyF2.jpg",
   },
   {
-    key: "/image/pdp/keyF3.png",
+    key: "/image/pdp/keyF3.jpg",
   },
 ];
 

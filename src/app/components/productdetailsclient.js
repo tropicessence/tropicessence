@@ -152,21 +152,21 @@ export default function ProductDetail({ id }) {
 
             <div className=" sm:flex hidden mb-[1px] mt-[1px] drop-shadow-2xl  sm:flex-col  ">
               <img
-                onClick={() => setCurrentImage(pdp[0].side1)}
+                onClick={() => setCurrentImage(pdp[0][id].side1)}
                 className="sm:w-40 sm:h-36 w-[122px]"
-                src={pdp[0].side1}
+                src={pdp[0][id].side1}
                 alt=""
               />
               <img
-                onClick={() => setCurrentImage(pdp[0].side2)}
+                onClick={() => setCurrentImage(pdp[0][id].side2)}
                 className="sm:w-40 sm:h-36  w-[122px]"
-                src={pdp[0].side2}
+                src={pdp[0][id].side2}
                 alt=""
               />
               <img
-                onClick={() => setCurrentImage(pdp[0].side3)}
+                onClick={() => setCurrentImage(pdp[0][id].side3)}
                 className="sm:w-40 sm:h-36  w-[122px]"
-                src={pdp[0].side3}
+                src={pdp[0][id].side3}
                 alt=""
               />
             </div>
@@ -260,7 +260,7 @@ export default function ProductDetail({ id }) {
               <img
                 onClick={() => setCurrentImage(pdp[0].side1)}
                 className="w-full h-auto"
-                src={pdp[0].side1}
+                src={pdp[0][id].side1}
                 alt=""
               />
             </SwiperSlide>
@@ -268,7 +268,7 @@ export default function ProductDetail({ id }) {
               <img
                 onClick={() => setCurrentImage(pdp[0].side2)}
                 className="w-full h-auto"
-                src={pdp[0].side2}
+                src={pdp[0][id].side2}
                 alt=""
               />
             </SwiperSlide>
@@ -276,7 +276,7 @@ export default function ProductDetail({ id }) {
               <img
                 onClick={() => setCurrentImage(pdp[0].side3)}
                 className="w-full h-auto"
-                src={pdp[0].side3}
+                src={pdp[0][id].side3}
                 alt=""
               />
             </SwiperSlide>

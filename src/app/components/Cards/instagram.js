@@ -13,7 +13,7 @@ const Instagram = () => {
         <h1 className="font-cormorant text-[#593B1F] font-normal sm:text-3xl text-center mb-3 italic text-xl">
           BE PART OF OUR INSTAGRAM FAMILY
         </h1>
-        <div className=" flex-wrap justify-center gap-4 sm:flex hidden ">
+        <div className=" flex-wrap justify-center sm:flex hidden ">
           {instagram[0].images.map((image, index) => (
             <>
               <a href={image.link}>
