@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="mb-5">
           <div className="bg-[#1B2F1F] mb-4 pt-5 max-w-screen-lg mx-auto flex justify-center items-center">
             <img
-              className="w-15 h-14 object-fill"
+              className="w-14 h-14 object-fill"
               src="/image/brandicon/barndlogo.png"
               alt=""
               onClick={() => router.push("/")}
@@ -24,7 +24,7 @@ const Footer = () => {
           >
             <div className="flex flex-col">
               <div className="text-center md:text-start leading-6">
-                Narikela, from Tiptur since 1954, offers premium cold-pressed
+                Tropicessence, from Tiptur since 1954, offers premium cold-pressed
                 coconut oil. We honor tradition with quality, supporting local
                 farmers and sustainable practices.
               </div>

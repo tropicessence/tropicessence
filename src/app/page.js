@@ -55,7 +55,7 @@ export default function Home() {
 
         <section className="bg-green-100 py-20 text-center">
           <h1 className="text-5xl font-bold mb-4">Experience Purity in Every Drop</h1>
-          <p className="text-xl mb-8">Narikela brings you the purest coconut products, carefully harvested and processed to retain their natural goodness.</p>
+          <p className="text-xl mb-8">Tropicessence brings you the purest coconut products, carefully harvested and processed to retain their natural goodness.</p>
           <button className="bg-green-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-600 transition duration-300">Experience the Natural Goodness</button>
         </section>
 
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold text-center mb-12">Our Products</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              {['Narikela 1ltr', 'Narikela 1/4ltr', 'Narikela 1/2ltr', 'Narikela dessicated powder'].map((product) => (
+              {['Tropicessence 1ltr', 'Tropicessence 1/4ltr', 'Tropicessence 1/2ltr', 'Tropicessence dessicated powder'].map((product) => (
                 <div key={product} className="text-center">
                   <div className="bg-gray-200 h-48 mb-4 rounded-lg"></div>
                   <p className="font-semibold">{product}</p>
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold text-center mb-8">Generations of Purity</h2>
             <p className="text-lg mb-8 max-w-3xl mx-auto text-center">
-              At Narikela, nestled in the lush greenery of Tiptur, our family heritage of coconut cultivation dates back to 1954. Our legacy is built on excellence and trust, passed down through generations. We are expanding beyond copra to offer coconut-based products, celebrating the coconut's versatility. Our philosophy supports local farmers with fair and sustainable practices. Each sun-ripened coconut is handpicked and cold-pressed to preserve its natural richness, ensuring the highest quality coconut oil.
+              At Tropicessence, nestled in the lush greenery of Tiptur, our family heritage of coconut cultivation dates back to 1954. Our legacy is built on excellence and trust, passed down through generations. We are expanding beyond copra to offer coconut-based products, celebrating the coconut's versatility. Our philosophy supports local farmers with fair and sustainable practices. Each sun-ripened coconut is handpicked and cold-pressed to preserve its natural richness, ensuring the highest quality coconut oil.
             </p>
             <div className="text-center">
               <button className="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition duration-300">Know more</button>
@@ -87,7 +87,7 @@ export default function Home() {
 
         <section className="py-16 bg-white">
           <div className="container mx-auto px-6">
-            <h2 className="text-3xl font-bold text-center mb-12">Benefits of Narikela Coconut Oil</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">Benefits of Tropicessence Coconut Oil</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
               {['Moisturizes Skin', 'Boosts Energy', 'Nourishes Hair', 'Improves Metabolism', 'Boosts Immunity', 'Reduces Bad Cholesterol'].map((benefit) => (
                 <div key={benefit} className="text-center">
@@ -132,7 +132,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
                 <h4 className="font-bold text-lg mb-4">About Us</h4>
-                <p>Narikela, from Tiptur since 1954, offers premium cold-pressed coconut oil. We honor tradition with quality, supporting local farmers and sustainable practices.</p>
+                <p>Tropicessence, from Tiptur since 1954, offers premium cold-pressed coconut oil. We honor tradition with quality, supporting local farmers and sustainable practices.</p>
               </div>
               <div>
                 <h4 className="font-bold text-lg mb-4">Quick Links</h4>
@@ -146,11 +146,11 @@ export default function Home() {
               <div>
                 <h4 className="font-bold text-lg mb-4">Contact Us</h4>
                 <p>9148633721</p>
-                <p>narikela.tiptur@gmail.com</p>
+                <p>Tropicessence.tiptur@gmail.com</p>
                 <p>Vinayaka Nagara, Tiptur Tumkur district-572201</p>
               </div>
               <div>
-                <h4 className="font-bold text-lg mb-4">Let's dive into Narikela's journey</h4>
+                <h4 className="font-bold text-lg mb-4">Let's dive into Tropicessence's journey</h4>
               </div>
             </div>
             <div className="mt-8 text-center border-t border-green-700 pt-8">

@@ -81,7 +81,7 @@ const About = () => {
               Generations of Purity
             </h3>
             <p className="text-[#000000 ] font-poppins font-normal tracking-wide text-sm leading-6 my-4">
-              At Narikela, Nestled In The Lush Greenery of Tiptur, Our Family
+              At Tropicessence, Nestled In The Lush Greenery of Tiptur, Our Family
               Heritage of Coconut Cultivation Dates Back To 1954. Our Legacy Is
               Built On Excellence And trust, Passed Down Through Generations. We
               Are Expanding Beyond Copra To Offer Coconut-Based Products,
@@ -127,7 +127,7 @@ const About = () => {
         <div className="bg-[#EBEAD5]">
           <div className="my-3 md:px-4 lg:px-0 max-w-screen-lg mx-auto">
             <p className="text-[#593B1F] text-center sm:font-medium sm:text-3xl text-2xl font-cormorant mt-5 p-2 uppercase">
-              Benefits of Narikela Coconut Oil
+              Benefits of Tropicessence Coconut Oil
             </p>
             <div className="flex sm:flex-row flex-col justify-center ">
               <div className="flex sm:flex-col flex-col gap-2 items-center">
@@ -247,11 +247,11 @@ const About = () => {
               className="text-[#000000] text-sm font-poppins tracking-wide leading-6 sm:mt-5 
               sm:text-start text-center pb-2 px-2"
             >
-              The Founder Of Narikela, Hails From Tiptur. After Pursuing Higher
+              The Founder Of Tropicessence, Hails From Tiptur. After Pursuing Higher
               Education In Bangalore, He Felt Inspired To Reconnect With His
               Roots And His Family's Ancestral Coconut Business. Driven By A
               Passion To Showcase The Richness Of His Homeland, He Returned To
-              Tiptur And Established Narikela, Celebrating The Land's Abundant
+              Tiptur And Established Tropicessence, Celebrating The Land's Abundant
               Natural Wealth.
             </p>
           </div>

@@ -141,7 +141,7 @@ export default function ProductDetail({ id }) {
       <div className="mx-2">
         <div className="max-w-screen-lg mx-auto">
           <div className=" text-3xl text-start mb-6 font-cormorant font-semibold text-[#593B1F]  italic py-3 mx-auto">
-            NARIKELA TREASURES
+            TROPICESSENCE TREASURES
           </div>
         </div>
         <div className="flex sm:justify-center sm:flex-row  justify-center gap-4">
@@ -407,7 +407,7 @@ export default function ProductDetail({ id }) {
         </div>
         <div className="max-w-screen-lg mx-auto p-4 sm:p-8">
           <div className="text-[#1B2F1F] font-semibold sm:text-xl font-poppins  border-b border-[#593B1F] my-3">
-            Why Use Narikela Coconut Oil?
+            Why Use Tropicessence Coconut Oil?
           </div>
 
           <div className="sm:block hidden">

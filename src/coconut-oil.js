@@ -18,9 +18,9 @@ export const coconutData = [
             id: "1",
             size: "1ltr -1000ml",
             mainImage: "/image/plp/1ltr.jpg",
-            name: "Narikela 1 Ltr Coconut Oil",
+            name: "Tropicessence 1 Ltr Coconut Oil",
             icon: "/image/plp/Ellipse.png",
-            secondName: "Narikela1ltr Oil",
+            secondName: "Tropicessence1ltr Oil",
             mrp: 250,
             sellingPrice: 225,
             benefits: [
@@ -47,10 +47,10 @@ export const coconutData = [
             id: "500",
             size: "1/2ltr-500ml",
             mainImage: "/image/plp/1-2ltr.jpg",
-            name: "Narikela 1/2 Ltr Coconut Oil",
+            name: "Tropicessence 1/2 Ltr Coconut Oil",
             icon: "/image/plp/Ellipse.png",
             mrp: 130,
-            secondName: "Narikela1/2ltr Oil",
+            secondName: "Tropicessence1/2ltr Oil",
             sellingPrice: 120,
             benefits: [
               "Moisturizes Skin",
@@ -75,9 +75,9 @@ export const coconutData = [
             id: "250",
             size: "1/4ltr-250 ml ",
             mainImage: "/image/plp/1-4ltr.jpg",
-            name: "Narikela 1/4 Ltr Coconut Oil",
+            name: "Tropicessence 1/4 Ltr Coconut Oil",
             icon: "/image/plp/Ellipse.png",
-            secondName: "Narikela1/4ltr Oil",
+            secondName: "Tropicessence1/4ltr Oil",
             benefits: [
               "Moisturizes Skin",
               "Nourishes Hair",
@@ -174,7 +174,7 @@ export const fourCards = [
       {
         id: "1",
         size: "1 ltr",
-        name: "Narikela 1ltr",
+        name: "Tropicessence 1ltr",
         mainImage: one,
         mrp: 250,
         sellingPrice: 225,
@@ -182,7 +182,7 @@ export const fourCards = [
       {
         id: "500",
         size: "500 ml",
-        name: "Narikela 1/2ltr",
+        name: "Tropicessence 1/2ltr",
         mainImage: two,
         mrp: 130,
         sellingPrice: 120,
@@ -190,7 +190,7 @@ export const fourCards = [
       {
         id: "250",
         size: "250 ml (Pack of 3)",
-        name: "Narikela 1/4ltr",
+        name: "Tropicessence 1/4ltr",
         mainImage: three,
         mrp: 210,
         sellingPrice: 195,
@@ -350,7 +350,7 @@ export const TESTMIONIALSS = [
   },
   {
     name: "Samatha punya manavi C",
-    exp: "I Love the quality of Narikela coconut oil.. definitely I will repurchase again",
+    exp: "I Love the quality of Tropicessence coconut oil.. definitely I will repurchase again",
     rating: "5",
   },
   {

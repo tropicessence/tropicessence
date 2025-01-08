@@ -104,7 +104,7 @@ export default function page() {
         <div className="flex flex-col justify-center text-center font-cormorant">
           <span className=" text-2xl sm:text-3xl font-medium text-[#593B1F]  italic pt-4 ">
             {" "}
-            NARIKELA TREASURES
+            TROPICESSENCE TREASURES
           </span>
           <span className="text-3xl sm:text-5xl font-medium  text-[#1B2F1F] text-center  mt-4">
             {" "}

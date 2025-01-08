@@ -15,7 +15,7 @@ const Instagram = () => {
         </h1>
         <div className=" flex-wrap justify-center sm:flex hidden ">
           {instagram[0].images.map((image, index) => (
-            <>
+            <div key={`instagram-${index}`}>
               <a href={image.link}>
                 <div key={index} className="sm:w-auto border border-[#D1B87A]">
                   <img
@@ -25,7 +25,7 @@ const Instagram = () => {
                   />
                 </div>
               </a>
-            </>
+            </div>
           ))}
         </div>
 

@@ -24,7 +24,7 @@ export default function AboutUs() {
                   Generations of Purity
                 </h2>
                 <p className=" font-poppins text-center sm:text-start tracking-wide leading-6 text-sm">
-                  At Narikela, nestled in the lush greenery of Tiptur, our
+                  At Tropicessence, nestled in the lush greenery of Tiptur, our
                   family heritage of coconut cultivation dates back to 1954. Our
                   legacy is built on excellence and trust, passed down through
                   generations. We are expanding beyond copra to offer

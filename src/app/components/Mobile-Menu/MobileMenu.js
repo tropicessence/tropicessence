@@ -26,7 +26,7 @@ const MobileMenu = ({ setMobileMenu }) => {
     return (
         <div className="bg-[#4C6444] top-0 left-0 z-20 h-screen w-[70%] absolute">
             <div className='py-4 px-4 bg-[#DCD1BF] flex justify-between items-center'>
-                <span className="text-[#4C6444] text-xl font-bold">Narikela</span>
+                <span className="text-[#4C6444] text-xl font-bold">Tropicessence</span>
                 <button
                     onClick={() => setMobileMenu(false)}
                     className="text-[#4C6444] text-xl"

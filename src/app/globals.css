@@ -32,3 +32,9 @@
 .text-shadow {
   text-shadow: 1px 1px 2px black;
 }
+
+.benefits-bg-image {
+  /*background-image: url(../../public/image/benifits/benefits2.png);*/
+  background: url(../../public/image/benifits/benefits2.png) no-repeat center
+    center fixed;
+}
