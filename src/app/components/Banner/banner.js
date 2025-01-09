@@ -50,7 +50,7 @@ export default function Banner() {
                     {HOMEBANNERM[0].images.map((image, index) => (
                         <SwiperSlide key={index}>
                             <img
-                                className="w-full h-[500px]"
+                                className="w-full object-contain"
                                 src={image.image}
                                 alt={`Instagram image ${index + 1}`}
                             />
