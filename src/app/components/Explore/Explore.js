@@ -1,6 +1,8 @@
 import React from "react";
+import { useRouter } from "next/navigation";
 
 export default function Explore() {
+  const router = useRouter();
   return (
     <div className="p-4 flex flex-col items-center justify-center my-3 font-cormorant sm:text-xl gap-2 md:mt-20 mt-4">
       <div className="font-cormorant sm:text-3xl text-2xl text-[#593B1F] text-center font-medium italic md:mb-4 mb-2 tracking-wide ">
@@ -13,6 +15,12 @@ export default function Explore() {
         Tropicessence brings you the purest coconut products, carefully harvested and
         processed to retain their natural goodness.
       </div>
+      <button
+        onClick={() => router.push("/plp")}
+        className="mt-10 bg-[#D1B87A] p-2 text-[#1B2F1F] rounded font-poppins text- sm:w-[30%] w-[60%] max-w-60  sm:justify-start sm:block "
+      >
+        Order Now
+      </button>
     </div>
   );
 }

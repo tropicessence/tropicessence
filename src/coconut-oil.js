@@ -230,8 +230,11 @@ export const instagram = [
 export const HOMEBANNER = [
   {
     images: [
+      // {
+      //   image: "/image/banner/banner-2.jpg",
+      // },
       {
-        image: "/image/banner/banner-2.jpg",
+        image: "/image/banner/banner-4.jpg",
       },
       {
         image: "/image/banner/banner-1.jpg",
@@ -246,8 +249,11 @@ export const HOMEBANNER = [
 export const HOMEBANNERM = [
   {
     images: [
+      // {
+      //   image: "/image/banner/banner-2-mobile.jpg",
+      // },
       {
-        image: "/image/banner/banner-2-mobile.jpg",
+        image: "/image/banner/banner-4-mobile.jpg",
       },
       {
         image: "/image/banner/banner-1-mobile.jpg",
