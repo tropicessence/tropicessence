@@ -16,7 +16,7 @@ const Youtube = () => {
           src="https://www.youtube.com/embed/VX9nJFQlumw"
           width={"100%"}
           height={"300px"}
-          frameborder="0"
+          frameBorder="0"
           allowFullScreen
         />
       </div>
