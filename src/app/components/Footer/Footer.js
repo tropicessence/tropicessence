@@ -12,8 +12,8 @@ const Footer = () => {
         <div className="mb-5">
           <div className="bg-[#1B2F1F] mb-4 pt-5 max-w-screen-lg mx-auto flex justify-center items-center">
             <img
-              className="w-14 h-14 object-fill"
-              src="/image/brandicon/barndlogo.png"
+              className="w-full h-14 object-contain"
+              src="/narikela-new-logo-website-2.png"
               alt=""
               onClick={() => router.push("/")}
             />

@@ -12,6 +12,9 @@ export const metadata = {
   title: "Tropicessence",
   keywords: ["Tropicessence", "coconut oil", "coconut products", "coconut oil products", "Tropic essence"],
   description: "Tropicessence coconut oil products.",
+  icons: {
+    icon: "/icon_logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
