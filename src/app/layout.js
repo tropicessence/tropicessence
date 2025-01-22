@@ -10,8 +10,13 @@ const inter = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Tropicessence",
-  keywords: ["Tropicessence", "coconut oil", "coconut products", "coconut oil products", "Tropic essence"],
-  description: "Tropicessence coconut oil products.",
+  keywords: [
+    "Tropicessence",
+    "coconut oil",
+    "coconut products",
+    "Tropic essence",
+  ],
+  description: "Tropicessence coconut products.",
   icons: {
     icon: "/icon_logo.png",
   },
