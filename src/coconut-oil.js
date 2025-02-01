@@ -47,11 +47,11 @@ export const coconutData = [
             id: "500",
             size: "1/2ltr-500ml",
             mainImage: "/image/plp/1-2ltr.jpg",
-            name: "Tropicessence 1/2 Ltr Coconut Oil",
+            name: "Tropicessence 500ml Coconut Oil",
             icon: "/image/plp/Ellipse.png",
-            mrp: 130,
+            mrp: 199,
             secondName: "Tropicessence1/2ltr Oil",
-            sellingPrice: 120,
+            sellingPrice: 349,
             benefits: [
               "Moisturizes Skin",
               "Nourishes Hair",
@@ -75,7 +75,7 @@ export const coconutData = [
             id: "250",
             size: "1/4ltr-250 ml ",
             mainImage: "/image/plp/1-4ltr.jpg",
-            name: "Tropicessence 1/4 Ltr Coconut Oil",
+            name: "Tropicessence 250ml Coconut Oil",
             icon: "/image/plp/Ellipse.png",
             secondName: "Tropicessence1/4ltr Oil",
             benefits: [

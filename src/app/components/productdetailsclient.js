@@ -220,20 +220,20 @@ export default function ProductDetail({ id }) {
                   Payment
                 </p>
               </div>
-              <div className="flex p-2">
-                <img
-                  className="sm:w-5 sm:h-4 w-4 h-3 mt-1"
-                  src="/image/pdp/shipped.png"
-                  alt=""
-                />
-                <p className="sm:pl-2 pl-1 text-[#593B1F] sm:text-sm text-[10px] ">
-                  {" "}
-                  Free{" "}
-                </p>{" "}
-                <p className="sm:pl-1 pl-0.5 sm:text-sm text-[10px]">
-                  Shipping
-                </p>
-              </div>
+              {/* <div className="flex p-2"> */}
+              {/*   <img */}
+              {/*     className="sm:w-5 sm:h-4 w-4 h-3 mt-1" */}
+              {/*     src="/image/pdp/shipped.png" */}
+              {/*     alt="" */}
+              {/*   /> */}
+              {/*   <p className="sm:pl-2 pl-1 text-[#593B1F] sm:text-sm text-[10px] "> */}
+              {/*     {" "} */}
+              {/*     Free{" "} */}
+              {/*   </p>{" "} */}
+              {/*   <p className="sm:pl-1 pl-0.5 sm:text-sm text-[10px]"> */}
+              {/*     Shipping */}
+              {/*   </p> */}
+              {/* </div> */}
             </div>
 
             <button
