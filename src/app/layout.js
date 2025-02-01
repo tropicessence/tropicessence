@@ -18,7 +18,7 @@ export const metadata = {
   ],
   description: "Tropicessence coconut products.",
   icons: {
-    icon: "/icon_logo.png",
+    icon: "/icon.png",
   },
 };
 
