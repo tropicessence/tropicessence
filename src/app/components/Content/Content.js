@@ -27,12 +27,12 @@ export default function Content() {
         >
           Products
         </button>
-        {/* <button */}
-        {/*   className="text-xl subpixel-antialiased text-[rgb(186,129,75)] mr-3 hover:text-yellow-400" */}
-        {/*   onClick={() => router.push("/blogs")} */}
-        {/* > */}
-        {/*   Blogs */}
-        {/* </button> */}
+         <button
+           className="text-xl subpixel-antialiased text-[rgb(186,129,75)] mr-3 hover:text-yellow-400"
+           onClick={() => router.push("/blogs")} 
+         >
+          Blogs
+        </button>
         <button
           className="text-xl subpixel-antialiased text-[rgb(186,129,75)] hover:text-yellow-400"
           onClick={() => router.push("/contact")}

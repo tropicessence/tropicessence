@@ -43,7 +43,7 @@ const MobileMenu = ({ setMobileMenu }) => {
         </NavItem>
         <NavItem href="/about">About Us</NavItem>
         <NavItem href="/plp">Products</NavItem>
-        {/* <NavItem href='/blogs' >Blogs</NavItem> */}
+        <NavItem href='/blogs' >Blogs</NavItem>
         <NavItem href="/contact">Contact Us</NavItem>
       </div>
     </div>

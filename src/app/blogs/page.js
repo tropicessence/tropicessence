@@ -69,18 +69,14 @@ const page = () => {
             </div>
             <div className="sm:w-1/2 sm:text-start text-center">
               <p className="text-[#593B1F] font-medium text-2xl sm:text-3xl italic">
-                BLOG HEADING
+                Strengthens Immunity
               </p>
-              <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
+              {/* <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
                 Blog Sub Heading
-              </p>
+              </p> */}
               <p className="text-[#593B1F] mt-2 ">
-                Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do
-                Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut
-                Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris
-                Nisi Ut Aliquip Ex Ea Commodo Consequat. Duis Aute Irure Dolor
-                In Reprehenderit In Voluptate Velit Esse Cillum Dolore Eu Fugiat
-                Nulla Pariatur.
+              Coconut oil is rich in antimicrobial and antiviral properties, helping the body fight infections. Lauric acid, a key component, has been shown to combat harmful bacteria, viruses, and fungi, boosting the immune system naturally. 
+
               </p>
             </div>
 
@@ -108,18 +104,13 @@ const page = () => {
           <div className="flex sm:flex-row  flex-col sm:justify-center sm:w-2/3 sm:mx-auto font-cormorant sm:space-x-7  ">
             <div className=" sm:w-1/2 sm:text-end  text-center pb-2">
               <p className="text-[#593B1F] font-medium text-2xl sm:text-3xl italic">
-                BLOG HEADING
+              Promotes Oral Health
               </p>
-              <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
+              {/* <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
                 Blog Sub Heading
-              </p>
+              </p> */}
               <p className="text-[#593B1F] ">
-                Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do
-                Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut
-                Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris
-                Nisi Ut Aliquip Ex Ea Commodo Consequat. Duis Aute Irure Dolor
-                In Reprehenderit In Voluptate Velit Esse Cillum Dolore Eu Fugiat
-                Nulla Pariatur.
+              Oil pulling with coconut oil is an ancient Ayurvedic practice that involves swishing a tablespoon of coconut oil in your mouth for 10-20 minutes. This helps draw out toxins, reduce plaque buildup, and prevent bad breath by eliminating harmful bacteria. The antimicrobial properties of lauric acid in coconut oil contribute to improved gum health and overall oral hygiene. Regular oil pulling may also help whiten teeth and reduce inflammation in the gums, promoting a healthier mouth naturally.
               </p>
             </div>
 
