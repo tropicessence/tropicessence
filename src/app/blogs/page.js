@@ -50,7 +50,7 @@ const page = () => {
 
       <div className="mx-3 my-3">
         <div className="my-2">
-          <div className="flex sm:flex-row  flex-col sm:justify-center items-center max-w-screen-lg sm:mx-auto font-cormorant sm:space-x-7 ">
+          <div className="flex sm:flex-row  flex-col sm:justify-center items-start max-w-screen-lg sm:mx-auto font-cormorant sm:space-x-7 ">
             <div className="relative sm:block hidden  ">
               <img
                 className=" sm:w-72 h-full rounded-sm mt-3"
@@ -69,14 +69,87 @@ const page = () => {
             </div>
             <div className="sm:w-1/2 sm:text-start text-center">
               <p className="text-[#593B1F] font-medium text-2xl sm:text-3xl italic">
-                Strengthens Immunity
+                Benefits of Edible Coconut Oil: A Nutritional Powerhouse for
+                Health & Wellness
               </p>
-              {/* <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
-                Blog Sub Heading
-              </p> */}
+              <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
+                Introduction
+              </p>
               <p className="text-[#593B1F] mt-2 ">
-              Coconut oil is rich in antimicrobial and antiviral properties, helping the body fight infections. Lauric acid, a key component, has been shown to combat harmful bacteria, viruses, and fungi, boosting the immune system naturally. 
-
+                Edible coconut oil has been a staple in traditional diets for
+                centuries, praised for its health benefits, rich nutrients, and
+                versatility in cooking. Whether used for cooking, oil pulling,
+                Hair Care or skin nourishment, this natural superfood offers a
+                range of advantages. In this blog, we will explore the top
+                benefits of edible coconut oil and why it should be a part of
+                your daily routine.
+              </p>
+              <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
+                1. Strengthens Immunity
+              </p>
+              <p className="text-[#593B1F] mt-2 ">
+                Coconut oil is rich in antimicrobial and antiviral properties,
+                helping the body fight infections. Lauric acid, a key component,
+                has been shown to combat harmful bacteria, viruses, and fungi,
+                boosting the immune system naturally.
+              </p>
+              <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
+                2. Promotes Oral Health
+              </p>
+              <p className="text-[#593B1F] mt-2 ">
+                Oil pulling with coconut oil is an ancient Ayurvedic practice
+                that involves swishing a tablespoon of coconut oil in your mouth
+                for 10-20 minutes. This helps draw out toxins, reduce plaque
+                buildup, and prevent bad breath by eliminating harmful bacteria.
+                The antimicrobial properties of lauric acid in coconut oil
+                contribute to improved gum health and overall oral hygiene.
+                Regular oil pulling may also help whiten teeth and reduce
+                inflammation in the gums, promoting a healthier mouth naturally.
+              </p>
+              <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
+                3. Promotes Healthy Hair Growth and Scalp Health
+              </p>
+              <p className="text-[#593B1F] mt-2 ">
+                Edible coconut oil has properties that support healthy hair
+                growth. Its nourishing compounds penetrate the scalp and hair
+                follicles, improving blood circulation and stimulating hair
+                growth. The fatty acids in coconut oil help to maintain a
+                healthy scalp by preventing dryness, flakiness, and dandruff.
+                Regular use of coconut oil as a hair treatment can promote
+                thicker, stronger, and healthier hair, making it a must-have
+                ingredient for anyone looking to boost their hair health.
+              </p>
+              <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
+                4. Improves Digestion & Gut Health
+              </p>
+              <p className="text-[#593B1F] mt-2 ">
+                Coconut oil promotes a healthy gut by reducing inflammation and
+                supporting good bacteria growth. Its antibacterial properties
+                aid digestion, help prevent bloating, and enhance the absorption
+                of essential nutrients from food.
+              </p>
+              <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
+                5. Natural Antimicrobial Properties for Skin Care
+              </p>
+              <p className="text-[#593B1F] mt-2 ">
+                Coconut oil is well-known for its antimicrobial properties due
+                to the presence of lauric acid. This makes it effective in
+                fighting acne-causing bacteria and fungi. Regular use of coconut
+                oil on the skin can help reduce the risk of breakouts, balance
+                oil production, and soothe inflammation. For those with
+                acne-prone or sensitive skin, coconut oil provides a natural way
+                to fight blemishes and achieve clearer skin without harsh
+                chemicals.
+              </p>
+              <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
+                Conclusion
+              </p>
+              <p className="text-[#593B1F] mt-2 ">
+                From heart Immunity and Oral Care to improved digestion and
+                glowing skin, edible coconut oil provides multiple health
+                benefits. Choosing cold-pressed, organic coconut oil ensures you
+                get the best quality and results. Add it to your diet and daily
+                routine for a healthier lifestyle.
               </p>
             </div>
 
@@ -94,40 +167,6 @@ const page = () => {
                   alt=""
                 />
                 <p className="ml-3">Sunday</p>
-              </span>
-            </div>
-          </div>
-
-          <div className="sm:flex sm:justify-evenly sm:w-full my-10">
-            <hr className="sm:w-1/2 h-px bg-[#593B1F]" />
-          </div>
-          <div className="flex sm:flex-row  flex-col sm:justify-center sm:w-2/3 sm:mx-auto font-cormorant sm:space-x-7  ">
-            <div className=" sm:w-1/2 sm:text-end  text-center pb-2">
-              <p className="text-[#593B1F] font-medium text-2xl sm:text-3xl italic">
-              Promotes Oral Health
-              </p>
-              {/* <p className="text-[#1B2F1F] text-3xl sm:text-4xl font-cormorant font-bold my-2 text-shadow">
-                Blog Sub Heading
-              </p> */}
-              <p className="text-[#593B1F] ">
-              Oil pulling with coconut oil is an ancient Ayurvedic practice that involves swishing a tablespoon of coconut oil in your mouth for 10-20 minutes. This helps draw out toxins, reduce plaque buildup, and prevent bad breath by eliminating harmful bacteria. The antimicrobial properties of lauric acid in coconut oil contribute to improved gum health and overall oral hygiene. Regular oil pulling may also help whiten teeth and reduce inflammation in the gums, promoting a healthier mouth naturally.
-              </p>
-            </div>
-
-            <div className="relative  ">
-              <img
-                className="sm:w-72 h-full rounded-sm"
-                src="/image/blogs/blog1.jpg"
-                alt="sdddddddd"
-              />
-              <span className="flex flex-row absolute bottom-3 bg-[#D1B87A] sm:w-[280px] sm:mx-1 items-center text-[#593B1F] bg-opacity-85 sm:h-10 w-44  ">
-                <p className="ml-2 ">21/10/2023</p>{" "}
-                <img
-                  className="h-6  mt-[1px] ml-3"
-                  src="/image/blogs/blogline.png"
-                  alt=""
-                />{" "}
-                <p className="ml-3">Monday</p>
               </span>
             </div>
           </div>
