@@ -21,7 +21,7 @@ export const coconutData = [
             name: "Tropicessence 1 Ltr Coconut Oil",
             icon: "/image/plp/Ellipse.png",
             secondName: "Tropicessence1ltr Oil",
-            mrp: 250,
+            mrp: 330,
             sellingPrice: 225,
             benefits: [
               "Moisturizes Skin",
@@ -40,7 +40,7 @@ export const coconutData = [
                 styledImage: "/image/oil/StyledImage.jpg",
               },
             ],
-            mrp: 250,
+            mrp: 330,
             sellingPrice: 225,
           },
           {
@@ -96,7 +96,7 @@ export const coconutData = [
                 styledImage: "/image/oil/250ml/StyledImage.jpg",
               },
             ],
-            mrp: 70,
+            mrp: 99,
             sellingPrice: 65,
           },
 
@@ -104,7 +104,7 @@ export const coconutData = [
             id: "22",
             mainImage: "/image/plp/dpowder1.jpg",
             size: "500 grams",
-            mrp: 330,
+            mrp: 199,
             sellingPrice: 310,
             name: "Dessicated Coconut Powder",
             secondName: "Dessicated Powder",
@@ -138,7 +138,7 @@ export const coconutData = [
           {
             id: 22,
             image: "/image/plp/dpowde2.png",
-            mrp: 330,
+            mrp: 199,
             sellingPrice: 310,
             name: "Dessicated Coconut Powder",
             icon: "/image/plp/Ellipse.png",
