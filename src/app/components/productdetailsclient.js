@@ -316,7 +316,7 @@ export default function ProductDetail({ id }) {
                 </div>
               ))}
             </div>
-            <div className="flex flex-col  text-sm border border-gray-900  pl-2 pt-2 pb-2 shadow-lg drop-shadow-2xl border-opacity-30 rounded-sm sm:w-40 font-poppins mr-20 p-4">
+            <div className="flex flex-col justify-around text-sm border border-gray-900  pl-2 pt-2 pb-2 shadow-lg drop-shadow-2xl border-opacity-30 rounded-sm sm:w-40 font-poppins mr-20 p-4">
               <div className="flex pb-1  ">
                 <img
                   className="sm:w-5 sm:h-4 w-4 h-3  mt-1"
